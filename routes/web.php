@@ -13,10 +13,7 @@
 
 
 Route::get('/', function(){
-	return view('welcome', [
-		'name'=>'Foo',
-		'greeting'=>'good',
-	]);
+	return view('welcome');
 });
 
 
